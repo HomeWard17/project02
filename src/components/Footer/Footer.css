@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+flex-direction: column;
+background-color: #f1f1f1;
+}
+i{
+    color: pink;
+    margin: 10px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
