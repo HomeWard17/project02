@@ -1,0 +1,30 @@
+*{ margin: 0px;
+    padding-top: 0px 10px !important; 
+    box-sizing: border-box;}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigate img {
+    max-height: 50px;
+    margin: auto;
+}
+.navigate-homepage{
+    max-height: 58px;
+}
+.navigate{
+  margin: 10px;
+}
+.links{
+
+}
+
+.search-box{
+
+}
+.cart{
+
+}

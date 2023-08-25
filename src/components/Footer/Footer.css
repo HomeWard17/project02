@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px !important;
     box-sizing: border-box;
 }
 .footer{
@@ -9,10 +9,11 @@ flex-direction: column;
 background-color: #f1f1f1;
 }
 i{
-    color: pink;
+    color: #de829e;
     margin: 10px;
 }
 .social{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     margin: 10px;
