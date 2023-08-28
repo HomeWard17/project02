@@ -13,18 +13,31 @@ function RegisterForm() {
           <input type="text" name="userName" />
         </div>
         <div id="password">
-          <label htmlFor="password">User Name:</label>
+          <label htmlFor="password">Password:</label>
           <input type="password" name="password" />
         </div>
         <div id="confirmPassword">
-          <label htmlFor="confirmPassword">User Name:</label>
+          <label htmlFor="confirmPassword">Confirm Password: </label>
           <input type="password" name="confirmPassword" />
         </div>
         <div>
-          <label htmlFor="dateOfBirth">Date of birth</label>
+          <label htmlFor="dateOfBirth">Date of birth: </label>
           <input type="date" />
         </div>
-        <div></div>
+        <div>
+          <button
+            style={{
+              backgroundColor: "pink",
+              borderRadius: "5px",
+              boxSizing: "5px",
+            }}
+          >
+            Register
+          </button>
+          <p>
+            Already got account? <a href="./login">Log in</a> now
+          </p>
+        </div>
       </form>
     </div>
   );
