@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./CustomizedOffcanvas.css";
+import Cart from "../Cart/Cart";
 const options = [
   {
     name: "Enable body scrolling",
@@ -22,11 +22,10 @@ function OffCanvasExample({ name, ...props }) {
       </button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Cart</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <Cart></Cart>
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -1,0 +1,7 @@
+.register-page{
+    display: flex;
+    justify-content: center;
+}
+.register-form{
+    padding: 10px;
+}

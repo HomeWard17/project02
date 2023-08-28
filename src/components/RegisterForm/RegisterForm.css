@@ -1,0 +1,9 @@
+input{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+form div{
+    margin: 10px;
+}
